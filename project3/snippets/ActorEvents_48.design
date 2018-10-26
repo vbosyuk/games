@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <collide comment="false" x="4" y="31">
+            <group eventID="1" id="-1">
+                <die comment="false" x="15" y="61">
+                    <ACTOR eid="this" id="0"/>
+                </die>
+                <play-sound4 comment="false" x="15" y="88">
+                    <int id="0" val="0"/>
+                    <sound eid="47" id="1"/>
+                </play-sound4>
+            </group>
+        </collide>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="7" extheight="448" extwidth="736" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="85.0" height="384" id="0" name="Level 1" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="672">
+    <layers>
+        <color-bg blue="255" green="204" red="153"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="true" group="0" id="0" name="Hero 1" sx="1.0" sy="1.0" x="64" y="288" z="0">
+            <snippets>
+                <s enabled="true" id="2">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="right"/>
+                    <prop id="2" list="0" val="left"/>
+                    <prop id="3" list="0" val="15"/>
+                    <prop id="4" list="0" val="Walk (R)"/>
+                    <prop id="5" list="0" val="Walk (L)"/>
+                    <prop id="6" list="0" val="Idle (R)"/>
+                    <prop id="7" list="0" val="Idle (L)"/>
+                </s>
+                <s enabled="true" id="3">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="4">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="up"/>
+                    <prop id="2" list="0" val="35"/>
+                    <prop id="3" list="0" val="6"/>
+                    <prop id="4" list="0" val="Idle (R)"/>
+                    <prop id="5" list="0" val="Walk (L)"/>
+                </s>
+                <s enabled="true" id="5"/>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="2" c="false" group="4" id="2" name="Pronger 2" sx="1.0" sy="1.0" x="512" y="256" z="0"/>
+    </actors>
+    <snippets/>
+    <terrain>
+        <p pts="4,96.0,0.0,96.0,32.0,0.0,32.0,0.0,0.0" x="288.0" y="224.0"/>
+        <p pts="4,0.0,32.0,0.0,0.0,96.0,0.0,96.0,32.0" x="160.0" y="256.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="480.0" y="160.0"/>
+        <p pts="12,672.0,384.0,0.0,384.0,0.0,0.0,32.0,0.0,32.0,320.0,480.0,320.0,480.0,288.0,576.0,288.0,576.0,320.0,640.0,320.0,640.0,0.0,672.0,0.0" x="0.0" y="0.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="416.0" y="192.0"/>
+    </terrain>
+    <atlases members="" retainAtlases="true"/>
+</scene>

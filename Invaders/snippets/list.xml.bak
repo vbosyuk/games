@@ -1,2 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<pack/>
+<pack>
+    <snippet attachedevent="true" class="scripts.SceneEvents_0" classname="scripts.SceneEvents_0" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="0" name="SceneEvents_0" oid="-1" package="scripts." sceneid="0" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="0" attachedevent="true" class="scripts.ActorEvents_0" classname="scripts.ActorEvents_0" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1" name="ActorEvents_0" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_2_2_space" classname="scripts.Design_2_2_space" desc="" description="" design="true" drawOrder="0" id="2" name="space" oid="-1" package="scripts" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+</pack>

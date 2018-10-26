@@ -24,7 +24,6 @@
         <events>
             <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
             <event displayName="Actor - Type" enabled="true" id="2" name="event-collide-actortotype" order="4" repeats="true"/>
-            <event displayName="Created" enabled="true" id="3" name="init" order="2" repeats="true"/>
         </events>
     </snippet>
     <snippet actorid="0" attachedevent="true" class="scripts.ActorEvents_0" classname="scripts.ActorEvents_0" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="13" name="ActorEvents_0" oid="-1" package="scripts." shared="false" type="actor">

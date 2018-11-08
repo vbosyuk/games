@@ -69,45 +69,65 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class Design_20_20_shooting extends ActorScript
+class ActorEvents_0 extends ActorScript
 {
-	public var _hero:Actor;
+	public var _ShipSpeed:Float;
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
-		nameMap.set("Actor", "actor");
-		nameMap.set("hero", "_hero");
+		nameMap.set("Ship Speed", "_ShipSpeed");
+		_ShipSpeed = 20.0;
 		
 	}
 	
 	override public function init()
 	{
 		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if(isKeyDown("right"))
+				{
+					actor.setXVelocity(_ShipSpeed);
+				}
+				else if(isKeyDown("left"))
+				{
+					actor.setXVelocity(-(_ShipSpeed));
+				}
+				else if((!(isKeyDown("right")) && !(isKeyDown("left"))))
+				{
+					actor.setXVelocity(0);
+				}
+			}
+		});
+		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if((actor.getScreenX() < 0))
+				{
+					actor.setX(1);
+				}
+				else if((actor.getScreenX() > (getScreenWidth() - (actor.getWidth()))))
+				{
+					actor.setX(((getScreenWidth() - (actor.getWidth())) - 1));
+				}
+			}
+		});
+		
 		/* =========================== Keyboard =========================== */
-		addKeyStateListener("Action 1", function(pressed:Bool, released:Bool, list:Array<Dynamic>):Void
+		addKeyStateListener("action1", function(pressed:Bool, released:Bool, list:Array<Dynamic>):Void
 		{
 			if(wrapper.enabled && pressed)
 			{
-				playSound(getSound(47));
-				createRecycledActor(getActorType(52), actor.getX(), actor.getY(), Script.FRONT);
-				if((actor.getAnimation() == "Up"))
-				{
-					getLastCreatedActor().setYVelocity(-80);
-				}
-				else if((actor.getAnimation() == "Down"))
-				{
-					getLastCreatedActor().setYVelocity(80);
-				}
-				else if((actor.getAnimation() == "Left"))
-				{
-					getLastCreatedActor().setXVelocity(-80);
-				}
-				else if((actor.getAnimation() == "Right"))
-				{
-					getLastCreatedActor().setXVelocity(80);
-				}
+				createRecycledActor(getActorType(5), actor.getX(), actor.getY(), Script.FRONT);
+				getLastCreatedActor().applyImpulse(0, -1, 40);
 			}
 		});
 		

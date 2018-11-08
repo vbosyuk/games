@@ -72,11 +72,17 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 class SceneEvents_0 extends SceneScript
 {
+	public var _Victory:Float;
+	public var _Win:Bool;
 	
 	
 	public function new(dummy:Int, dummy2:Engine)
 	{
 		super();
+		nameMap.set("Victory Counter", "_Victory");
+		_Victory = 0;
+		nameMap.set("Win?", "_Win");
+		_Win = false;
 		
 	}
 	
@@ -85,6 +91,42 @@ class SceneEvents_0 extends SceneScript
 		
 		/* ======================== When Creating ========================= */
 		playSound(getSound(12));
+		
+		/* ======================= Member of Group ======================== */
+		addWhenTypeGroupKilledListener(getActorGroup(4), function(eventActor:Actor, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				_Victory += 1;
+				propertyChanged("_Victory", _Victory);
+			}
+		});
+		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if((_Victory == 5))
+				{
+					_Win = true;
+					propertyChanged("_Win", _Win);
+				}
+			}
+		});
+		
+		/* ========================= When Drawing ========================= */
+		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				g.setFont(getFont(13));
+				if(_Win)
+				{
+					g.drawString("" + "You Win!", 300, 240);
+				}
+			}
+		});
 		
 	}
 	

@@ -69,47 +69,44 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_3 extends ActorScript
+class Design_20_20_shooting extends ActorScript
 {
-	public var _HealthPoints:Float;
-	
-	/* ========================= Custom Event ========================= */
-	public function _customEvent_Hit():Void
-	{
-		_HealthPoints -= 1;
-		propertyChanged("_HealthPoints", _HealthPoints);
-		actor.setFilter([createNegativeFilter()]);
-		runLater(1000 * .1, function(timeTask:TimedTask):Void
-		{
-			actor.clearFilters();
-		}, actor);
-	}
+	public var _hero:Actor;
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
-		nameMap.set("Health Points", "_HealthPoints");
-		_HealthPoints = 0;
+		nameMap.set("Actor", "actor");
+		nameMap.set("hero", "_hero");
 		
 	}
 	
 	override public function init()
 	{
 		
-		/* ======================== When Creating ========================= */
-		_HealthPoints = asNumber(3);
-		propertyChanged("_HealthPoints", _HealthPoints);
-		
-		/* ======================== When Updating ========================= */
-		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		/* =========================== Keyboard =========================== */
+		addKeyStateListener("Action 1", function(pressed:Bool, released:Bool, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled)
+			if(wrapper.enabled && pressed)
 			{
-				if((_HealthPoints <= 0))
+				playSound(getSound(47));
+				createRecycledActor(getActorType(52), actor.getX(), actor.getY(), Script.FRONT);
+				if((actor.getAnimation() == "Up"))
 				{
-					playSound(getSound(11));
-					recycleActor(actor);
+					getLastCreatedActor().setYVelocity(-80);
+				}
+				else if((actor.getAnimation() == "Down"))
+				{
+					getLastCreatedActor().setYVelocity(80);
+				}
+				else if((actor.getAnimation() == "Left"))
+				{
+					getLastCreatedActor().setXVelocity(-80);
+				}
+				else if((actor.getAnimation() == "Right"))
+				{
+					getLastCreatedActor().setXVelocity(80);
 				}
 			}
 		});

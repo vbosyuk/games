@@ -2,35 +2,15 @@
 <scene depth="1" desc="" eventsnippetid="2" extheight="544" extwidth="704" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="480" id="0" name="Level 1 forests" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
     <layers>
         <color-bg blue="255" green="255" red="255"/>
-        <background blendMode="normal" customScrollFactor="false" id="2" locked="true" name="brick forest" opacity="100" order="1" rid="6" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
-        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <background blendMode="normal" customScrollFactor="false" id="3" locked="true" name="brick forest" opacity="100" order="1" rid="6" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="255,255,255" id="4" locked="false" name="Layer 4" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
     </layers>
     <joints/>
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="1" c="true" group="3" id="3" name="dino 1" sx="1.0" sy="1.0" x="110" y="371" z="0">
-            <snippets>
-                <s enabled="true" id="1"/>
-                <s enabled="true" id="4">
-                    <prop id="2147483647" list="0" val="thisactor"/>
-                    <prop id="33" list="0" val="left"/>
-                    <prop id="34" list="0" val="right"/>
-                    <prop id="37" list="0" val="0"/>
-                    <prop id="38" list="0" val="false"/>
-                    <prop id="39" list="0" val="true"/>
-                    <prop id="40" list="0" val="0.0"/>
-                    <prop id="41" list="0" val=""/>
-                    <prop id="42" list="0" val=""/>
-                    <prop id="11" list="0" val="30.0"/>
-                    <prop id="43" list="0" val=""/>
-                    <prop id="44" list="0" val=""/>
-                    <prop id="45" list="0" val="true"/>
-                    <prop id="46" list="0" val="true"/>
-                </s>
-            </snippets>
-        </actor>
-        <actor a="0.0" aid="2" c="false" group="3" id="0" name="knight 2" sx="1.0" sy="1.0" x="363" y="357" z="0"/>
+        <actor a="0.0" aid="1" c="false" group="3" id="0" name="knight 1" sx="1.0" sy="1.0" x="414" y="363" z="4"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="3" name="dino 2" sx="1.0" sy="1.0" x="99" y="377" z="4"/>
     </actors>
     <snippets/>
     <terrain/>

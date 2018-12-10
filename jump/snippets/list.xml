@@ -42,4 +42,8 @@
             <event displayName="Actor - Any" enabled="true" id="8" name="collide" order="4" repeats="true"/>
         </events>
     </snippet>
+    <snippet actorid="11" attachedevent="true" class="scripts.ActorEvents_11" classname="scripts.ActorEvents_11" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="8" name="ActorEvents_11" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
 </pack>

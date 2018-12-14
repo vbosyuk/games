@@ -8,7 +8,7 @@
                 </die>
             </group>
             <ACTOR eid="this" id="0"/>
-            <actortype eid="11" id="1"/>
+            <get-val-10-2 comment="false" id="1" x="0" y="0"/>
         </event-collide-actortotype>
     </group>
     <group eventID="1" id="-1"/>

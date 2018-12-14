@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<scene depth="1" desc="" eventsnippetid="5" extheight="544" extwidth="704" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="480" id="0" name="jump 1" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+<scene depth="1" desc="" eventsnippetid="5" extheight="544" extwidth="704" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="65.0" height="480" id="0" name="jump 1" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
     <layers>
         <color-bg blue="255" green="204" red="0"/>
         <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
@@ -8,180 +8,51 @@
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="1" c="true" group="3" id="7" name="iron man 1" sx="1.0" sy="1.0" x="511" y="378" z="0">
-            <snippets>
-                <s enabled="true" id="6"/>
-                <s enabled="true" id="7">
-                    <prop id="2147483647" list="0" val="thisactor"/>
-                    <prop id="33" list="0" val="left"/>
-                    <prop id="34" list="0" val="right"/>
-                    <prop id="37" list="0" val="0.0"/>
-                    <prop id="38" list="0" val="true"/>
-                    <prop id="41" list="0" val="up"/>
-                    <prop id="42" list="0" val="false"/>
-                    <prop id="43" list="0" val="false"/>
-                    <prop id="11" list="0" val="15.0"/>
-                    <prop id="45" list="0" val="25.0"/>
-                    <prop id="47" list="0" val="anime 1"/>
-                    <prop id="48" list="0" val="anime 1"/>
-                    <prop id="49" list="0" val="anime 1"/>
-                    <prop id="50" list="0" val="anime 1"/>
-                    <prop id="52" list="0" val="false"/>
-                    <prop id="53" list="0" val="anime 1"/>
-                    <prop id="54" list="0" val="anime 1"/>
-                    <prop id="55" list="0" val="false"/>
-                    <prop id="56" list="0" val="false"/>
-                    <prop id="57" list="0" val="false"/>
-                    <prop id="58" list="0" val="false"/>
-                    <prop id="60" list="0" val="true"/>
-                    <prop id="62" list="0" val="0.2"/>
-                    <prop id="63" list="0" val="50"/>
-                </s>
-            </snippets>
-        </actor>
-        <actor a="0.0" aid="2" c="false" group="3" id="11" name="spider 2" sx="1.0" sy="1.0" x="243" y="351" z="0"/>
-        <actor a="0.0" aid="3" c="false" group="3" id="11" name="spider 3" sx="1.0" sy="1.0" x="1" y="158" z="0"/>
-        <actor a="0.0" aid="4" c="false" group="3" id="11" name="spider 4" sx="1.0" sy="1.0" x="618" y="457" z="0"/>
-        <actor a="0.0" aid="5" c="false" group="3" id="11" name="spider 5" sx="1.0" sy="1.0" x="611" y="457" z="0"/>
-        <actor a="0.0" aid="6" c="false" group="3" id="11" name="spider 6" sx="1.0" sy="1.0" x="601" y="456" z="0"/>
-        <actor a="0.0" aid="7" c="false" group="3" id="11" name="spider 7" sx="1.0" sy="1.0" x="592" y="457" z="0"/>
-        <actor a="0.0" aid="8" c="false" group="3" id="11" name="spider 8" sx="1.0" sy="1.0" x="588" y="457" z="0"/>
-        <actor a="0.0" aid="9" c="false" group="3" id="11" name="spider 9" sx="1.0" sy="1.0" x="584" y="457" z="0"/>
-        <actor a="0.0" aid="10" c="false" group="3" id="11" name="spider 10" sx="1.0" sy="1.0" x="582" y="457" z="0"/>
-        <actor a="0.0" aid="11" c="false" group="3" id="11" name="spider 11" sx="1.0" sy="1.0" x="578" y="458" z="0"/>
-        <actor a="0.0" aid="12" c="false" group="3" id="11" name="spider 12" sx="1.0" sy="1.0" x="578" y="458" z="0"/>
-        <actor a="0.0" aid="13" c="false" group="3" id="11" name="spider 13" sx="1.0" sy="1.0" x="578" y="458" z="0"/>
-        <actor a="0.0" aid="14" c="false" group="3" id="11" name="spider 14" sx="1.0" sy="1.0" x="565" y="458" z="0"/>
-        <actor a="0.0" aid="15" c="false" group="3" id="11" name="spider 15" sx="1.0" sy="1.0" x="559" y="458" z="0"/>
-        <actor a="0.0" aid="16" c="false" group="3" id="11" name="spider 16" sx="1.0" sy="1.0" x="555" y="459" z="0"/>
-        <actor a="0.0" aid="17" c="false" group="3" id="11" name="spider 17" sx="1.0" sy="1.0" x="547" y="459" z="0"/>
-        <actor a="0.0" aid="18" c="false" group="3" id="11" name="spider 18" sx="1.0" sy="1.0" x="527" y="459" z="0"/>
-        <actor a="0.0" aid="19" c="false" group="3" id="11" name="spider 19" sx="1.0" sy="1.0" x="477" y="453" z="0"/>
-        <actor a="0.0" aid="20" c="false" group="3" id="11" name="spider 20" sx="1.0" sy="1.0" x="447" y="454" z="0"/>
-        <actor a="0.0" aid="21" c="false" group="3" id="11" name="spider 21" sx="1.0" sy="1.0" x="426" y="454" z="0"/>
-        <actor a="0.0" aid="22" c="false" group="3" id="11" name="spider 22" sx="1.0" sy="1.0" x="397" y="455" z="0"/>
-        <actor a="0.0" aid="23" c="false" group="3" id="11" name="spider 23" sx="1.0" sy="1.0" x="390" y="454" z="0"/>
-        <actor a="0.0" aid="24" c="false" group="3" id="11" name="spider 24" sx="1.0" sy="1.0" x="367" y="459" z="0"/>
-        <actor a="0.0" aid="25" c="false" group="3" id="11" name="spider 25" sx="1.0" sy="1.0" x="338" y="459" z="0"/>
-        <actor a="0.0" aid="26" c="false" group="3" id="11" name="spider 26" sx="1.0" sy="1.0" x="323" y="458" z="0"/>
-        <actor a="0.0" aid="27" c="false" group="3" id="11" name="spider 27" sx="1.0" sy="1.0" x="288" y="453" z="0"/>
-        <actor a="0.0" aid="28" c="false" group="3" id="11" name="spider 28" sx="1.0" sy="1.0" x="276" y="451" z="0"/>
-        <actor a="0.0" aid="29" c="false" group="3" id="11" name="spider 29" sx="1.0" sy="1.0" x="255" y="451" z="0"/>
-        <actor a="0.0" aid="30" c="false" group="3" id="11" name="spider 30" sx="1.0" sy="1.0" x="228" y="453" z="0"/>
-        <actor a="0.0" aid="31" c="false" group="3" id="11" name="spider 31" sx="1.0" sy="1.0" x="204" y="454" z="0"/>
-        <actor a="0.0" aid="32" c="false" group="3" id="11" name="spider 32" sx="1.0" sy="1.0" x="191" y="454" z="0"/>
-        <actor a="0.0" aid="33" c="false" group="3" id="11" name="spider 33" sx="1.0" sy="1.0" x="179" y="454" z="0"/>
-        <actor a="0.0" aid="34" c="false" group="3" id="11" name="spider 34" sx="1.0" sy="1.0" x="161" y="452" z="0"/>
-        <actor a="0.0" aid="35" c="false" group="3" id="11" name="spider 35" sx="1.0" sy="1.0" x="146" y="451" z="0"/>
-        <actor a="0.0" aid="36" c="false" group="3" id="11" name="spider 36" sx="1.0" sy="1.0" x="119" y="450" z="0"/>
-        <actor a="0.0" aid="37" c="false" group="3" id="11" name="spider 37" sx="1.0" sy="1.0" x="92" y="451" z="0"/>
-        <actor a="0.0" aid="38" c="false" group="3" id="11" name="spider 38" sx="1.0" sy="1.0" x="65" y="452" z="0"/>
-        <actor a="0.0" aid="39" c="false" group="3" id="11" name="spider 39" sx="1.0" sy="1.0" x="46" y="451" z="0"/>
-        <actor a="0.0" aid="40" c="false" group="3" id="11" name="spider 40" sx="1.0" sy="1.0" x="16" y="451" z="0"/>
-        <actor a="0.0" aid="41" c="false" group="3" id="11" name="spider 41" sx="1.0" sy="1.0" x="16" y="451" z="0"/>
-        <actor a="0.0" aid="42" c="false" group="3" id="11" name="spider 42" sx="1.0" sy="1.0" x="7" y="450" z="0"/>
-        <actor a="0.0" aid="43" c="false" group="3" id="11" name="spider 43" sx="1.0" sy="1.0" x="-1" y="451" z="0"/>
-        <actor a="0.0" aid="44" c="false" group="3" id="11" name="spider 44" sx="1.0" sy="1.0" x="-4" y="452" z="0"/>
-        <actor a="0.0" aid="45" c="false" group="3" id="11" name="spider 45" sx="1.0" sy="1.0" x="145" y="452" z="0"/>
-        <actor a="0.0" aid="46" c="false" group="3" id="11" name="spider 46" sx="1.0" sy="1.0" x="203" y="453" z="0"/>
-        <actor a="0.0" aid="47" c="false" group="3" id="11" name="spider 47" sx="1.0" sy="1.0" x="213" y="454" z="0"/>
-        <actor a="0.0" aid="48" c="false" group="3" id="11" name="spider 48" sx="1.0" sy="1.0" x="231" y="455" z="0"/>
-        <actor a="0.0" aid="49" c="false" group="3" id="11" name="spider 49" sx="1.0" sy="1.0" x="251" y="455" z="0"/>
-        <actor a="0.0" aid="50" c="false" group="3" id="11" name="spider 50" sx="1.0" sy="1.0" x="269" y="455" z="0"/>
-        <actor a="0.0" aid="51" c="false" group="3" id="11" name="spider 51" sx="1.0" sy="1.0" x="282" y="455" z="0"/>
-        <actor a="0.0" aid="52" c="false" group="3" id="11" name="spider 52" sx="1.0" sy="1.0" x="296" y="455" z="0"/>
-        <actor a="0.0" aid="53" c="false" group="3" id="11" name="spider 53" sx="1.0" sy="1.0" x="307" y="456" z="0"/>
-        <actor a="0.0" aid="54" c="false" group="3" id="11" name="spider 54" sx="1.0" sy="1.0" x="315" y="457" z="0"/>
-        <actor a="0.0" aid="55" c="false" group="3" id="11" name="spider 55" sx="1.0" sy="1.0" x="327" y="457" z="0"/>
-        <actor a="0.0" aid="56" c="false" group="3" id="11" name="spider 56" sx="1.0" sy="1.0" x="356" y="454" z="0"/>
-        <actor a="0.0" aid="57" c="false" group="3" id="11" name="spider 57" sx="1.0" sy="1.0" x="383" y="452" z="0"/>
-        <actor a="0.0" aid="58" c="false" group="3" id="11" name="spider 58" sx="1.0" sy="1.0" x="401" y="452" z="0"/>
-        <actor a="0.0" aid="59" c="false" group="3" id="11" name="spider 59" sx="1.0" sy="1.0" x="430" y="452" z="0"/>
-        <actor a="0.0" aid="60" c="false" group="3" id="11" name="spider 60" sx="1.0" sy="1.0" x="446" y="451" z="0"/>
-        <actor a="0.0" aid="61" c="false" group="3" id="11" name="spider 61" sx="1.0" sy="1.0" x="459" y="451" z="0"/>
-        <actor a="0.0" aid="62" c="false" group="3" id="11" name="spider 62" sx="1.0" sy="1.0" x="469" y="455" z="0"/>
-        <actor a="0.0" aid="63" c="false" group="3" id="11" name="spider 63" sx="1.0" sy="1.0" x="477" y="455" z="0"/>
-        <actor a="0.0" aid="64" c="false" group="3" id="11" name="spider 64" sx="1.0" sy="1.0" x="497" y="455" z="0"/>
-        <actor a="0.0" aid="65" c="false" group="3" id="11" name="spider 65" sx="1.0" sy="1.0" x="519" y="455" z="0"/>
-        <actor a="0.0" aid="66" c="false" group="3" id="11" name="spider 66" sx="1.0" sy="1.0" x="523" y="455" z="0"/>
-        <actor a="0.0" aid="67" c="false" group="3" id="11" name="spider 67" sx="1.0" sy="1.0" x="517" y="455" z="0"/>
-        <actor a="0.0" aid="68" c="false" group="3" id="11" name="spider 68" sx="1.0" sy="1.0" x="474" y="453" z="0"/>
-        <actor a="0.0" aid="69" c="false" group="3" id="11" name="spider 69" sx="1.0" sy="1.0" x="459" y="452" z="0"/>
-        <actor a="0.0" aid="70" c="false" group="3" id="11" name="spider 70" sx="1.0" sy="1.0" x="439" y="451" z="0"/>
-        <actor a="0.0" aid="71" c="false" group="3" id="11" name="spider 71" sx="1.0" sy="1.0" x="390" y="453" z="0"/>
-        <actor a="0.0" aid="72" c="false" group="3" id="11" name="spider 72" sx="1.0" sy="1.0" x="359" y="455" z="0"/>
-        <actor a="0.0" aid="73" c="false" group="3" id="11" name="spider 73" sx="1.0" sy="1.0" x="327" y="455" z="0"/>
-        <actor a="0.0" aid="74" c="false" group="3" id="11" name="spider 74" sx="1.0" sy="1.0" x="272" y="457" z="0"/>
-        <actor a="0.0" aid="75" c="false" group="3" id="11" name="spider 75" sx="1.0" sy="1.0" x="213" y="458" z="0"/>
-        <actor a="0.0" aid="76" c="false" group="3" id="11" name="spider 76" sx="1.0" sy="1.0" x="180" y="455" z="0"/>
-        <actor a="0.0" aid="77" c="false" group="3" id="11" name="spider 77" sx="1.0" sy="1.0" x="138" y="455" z="0"/>
-        <actor a="0.0" aid="78" c="false" group="3" id="11" name="spider 78" sx="1.0" sy="1.0" x="95" y="449" z="0"/>
-        <actor a="0.0" aid="79" c="false" group="3" id="11" name="spider 79" sx="1.0" sy="1.0" x="64" y="449" z="0"/>
-        <actor a="0.0" aid="80" c="false" group="3" id="11" name="spider 80" sx="1.0" sy="1.0" x="37" y="454" z="0"/>
-        <actor a="0.0" aid="81" c="false" group="3" id="11" name="spider 81" sx="1.0" sy="1.0" x="37" y="454" z="0"/>
-        <actor a="0.0" aid="82" c="false" group="3" id="11" name="spider 82" sx="1.0" sy="1.0" x="31" y="454" z="0"/>
-        <actor a="0.0" aid="83" c="false" group="3" id="11" name="spider 83" sx="1.0" sy="1.0" x="30" y="454" z="0"/>
-        <actor a="0.0" aid="84" c="false" group="3" id="11" name="spider 84" sx="1.0" sy="1.0" x="36" y="452" z="0"/>
-        <actor a="0.0" aid="85" c="false" group="3" id="11" name="spider 85" sx="1.0" sy="1.0" x="52" y="450" z="0"/>
-        <actor a="0.0" aid="86" c="false" group="3" id="11" name="spider 86" sx="1.0" sy="1.0" x="61" y="449" z="0"/>
-        <actor a="0.0" aid="87" c="false" group="3" id="11" name="spider 87" sx="1.0" sy="1.0" x="65" y="449" z="0"/>
-        <actor a="0.0" aid="88" c="false" group="3" id="11" name="spider 88" sx="1.0" sy="1.0" x="105" y="455" z="0"/>
-        <actor a="0.0" aid="89" c="false" group="3" id="11" name="spider 89" sx="1.0" sy="1.0" x="106" y="455" z="0"/>
-        <actor a="0.0" aid="90" c="false" group="3" id="11" name="spider 90" sx="1.0" sy="1.0" x="106" y="455" z="0"/>
-        <actor a="0.0" aid="91" c="false" group="3" id="11" name="spider 91" sx="1.0" sy="1.0" x="84" y="453" z="0"/>
-        <actor a="0.0" aid="92" c="false" group="3" id="11" name="spider 92" sx="1.0" sy="1.0" x="83" y="453" z="0"/>
-        <actor a="0.0" aid="93" c="false" group="3" id="11" name="spider 93" sx="1.0" sy="1.0" x="98" y="453" z="0"/>
-        <actor a="0.0" aid="94" c="false" group="3" id="11" name="spider 94" sx="1.0" sy="1.0" x="169" y="453" z="0"/>
-        <actor a="0.0" aid="95" c="false" group="3" id="11" name="spider 95" sx="1.0" sy="1.0" x="196" y="453" z="0"/>
-        <actor a="0.0" aid="96" c="false" group="3" id="11" name="spider 96" sx="1.0" sy="1.0" x="222" y="457" z="0"/>
-        <actor a="0.0" aid="97" c="false" group="3" id="11" name="spider 97" sx="1.0" sy="1.0" x="279" y="458" z="0"/>
-        <actor a="0.0" aid="98" c="false" group="3" id="11" name="spider 98" sx="1.0" sy="1.0" x="336" y="458" z="0"/>
-        <actor a="0.0" aid="99" c="false" group="3" id="11" name="spider 99" sx="1.0" sy="1.0" x="353" y="458" z="0"/>
-        <actor a="0.0" aid="100" c="false" group="3" id="11" name="spider 100" sx="1.0" sy="1.0" x="368" y="456" z="0"/>
-        <actor a="0.0" aid="101" c="false" group="3" id="11" name="spider 101" sx="1.0" sy="1.0" x="413" y="455" z="0"/>
-        <actor a="0.0" aid="102" c="false" group="3" id="11" name="spider 102" sx="1.0" sy="1.0" x="417" y="455" z="0"/>
-        <actor a="0.0" aid="103" c="false" group="3" id="11" name="spider 103" sx="1.0" sy="1.0" x="452" y="455" z="0"/>
-        <actor a="0.0" aid="104" c="false" group="3" id="11" name="spider 104" sx="1.0" sy="1.0" x="485" y="454" z="0"/>
-        <actor a="0.0" aid="105" c="false" group="3" id="11" name="spider 105" sx="1.0" sy="1.0" x="503" y="453" z="0"/>
-        <actor a="0.0" aid="106" c="false" group="3" id="11" name="spider 106" sx="1.0" sy="1.0" x="517" y="453" z="0"/>
-        <actor a="0.0" aid="107" c="false" group="3" id="11" name="spider 107" sx="1.0" sy="1.0" x="546" y="458" z="0"/>
-        <actor a="0.0" aid="108" c="false" group="3" id="11" name="spider 108" sx="1.0" sy="1.0" x="560" y="458" z="0"/>
-        <actor a="0.0" aid="109" c="false" group="3" id="11" name="spider 109" sx="1.0" sy="1.0" x="579" y="458" z="0"/>
-        <actor a="0.0" aid="110" c="false" group="3" id="11" name="spider 110" sx="1.0" sy="1.0" x="539" y="458" z="0"/>
-        <actor a="0.0" aid="111" c="false" group="3" id="11" name="spider 111" sx="1.0" sy="1.0" x="539" y="458" z="0"/>
-        <actor a="0.0" aid="112" c="false" group="3" id="11" name="spider 112" sx="1.0" sy="1.0" x="605" y="456" z="0"/>
-        <actor a="0.0" aid="113" c="false" group="3" id="11" name="spider 113" sx="1.0" sy="1.0" x="191" y="123" z="0"/>
-        <actor a="0.0" aid="114" c="false" group="3" id="11" name="spider 114" sx="1.0" sy="1.0" x="578" y="24" z="0"/>
-        <actor a="0.0" aid="115" c="false" group="3" id="11" name="spider 115" sx="1.0" sy="1.0" x="131" y="451" z="0"/>
-        <actor a="0.0" aid="116" c="false" group="3" id="11" name="spider 116" sx="1.0" sy="1.0" x="239" y="453" z="0"/>
-        <actor a="0.0" aid="117" c="false" group="3" id="11" name="spider 117" sx="1.0" sy="1.0" x="72" y="455" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="5" id="11" name="spider 2" sx="1.0" sy="1.0" x="267" y="302" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="5" id="11" name="spider 3" sx="1.0" sy="1.0" x="14" y="146" z="0"/>
+        <actor a="0.0" aid="113" c="false" group="5" id="11" name="spider 113" sx="1.0" sy="1.0" x="208" y="111" z="0"/>
+        <actor a="0.0" aid="114" c="false" group="5" id="11" name="spider 114" sx="1.0" sy="1.0" x="578" y="24" z="0"/>
+        <actor a="0.0" aid="119" c="false" group="5" id="11" name="spider 119" sx="1.0" sy="1.0" x="591" y="451" z="0"/>
+        <actor a="0.0" aid="120" c="false" group="5" id="11" name="spider 120" sx="1.0" sy="1.0" x="435" y="448" z="0"/>
+        <actor a="0.0" aid="121" c="false" group="5" id="11" name="spider 121" sx="1.0" sy="1.0" x="334" y="453" z="0"/>
+        <actor a="0.0" aid="122" c="false" group="5" id="11" name="spider 122" sx="1.0" sy="1.0" x="184" y="450" z="0"/>
+        <actor a="0.0" aid="123" c="false" group="5" id="11" name="spider 123" sx="1.0" sy="1.0" x="13" y="452" z="0"/>
+        <actor a="0.0" aid="124" c="false" group="4" id="7" name="iron man 124" sx="1.0" sy="1.0" x="506" y="379" z="0"/>
     </actors>
-    <snippets/>
+    <snippets>
+        <s enabled="true" id="12">
+            <prop id="2" list="0" val="enter"/>
+            <prop id="6" list="0" val="true"/>
+            <prop id="7" list="0" val="50.0"/>
+            <prop id="8" list="0" val="0,0,0,255"/>
+            <prop id="9" list="0" val="false"/>
+            <prop id="10" list="0" val="Paused"/>
+            <prop id="11" list="0" val="Default Font"/>
+        </s>
+    </snippets>
     <terrain>
-        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="64.0" y="64.0"/>
-        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="544.0" y="32.0"/>
-        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="64.0" y="224.0"/>
-        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="32.0" y="416.0"/>
-        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="224.0" y="352.0"/>
-        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="512.0" y="416.0"/>
-        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="128.0" y="384.0"/>
-        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="192.0" y="128.0"/>
-        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="320.0" y="160.0"/>
-        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="0.0" y="160.0"/>
-        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="448.0" y="0.0"/>
-        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="544.0" y="320.0"/>
-        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="416.0" y="224.0"/>
-        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="288.0" y="32.0"/>
-        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="448.0" y="288.0"/>
-        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="160.0" y="0.0"/>
-        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="448.0" y="96.0"/>
-        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="448.0" y="384.0"/>
-        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="256.0" y="416.0"/>
-        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="192.0" y="224.0"/>
-        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="256.0" y="320.0"/>
-        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="352.0" y="352.0"/>
-        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="64.0" y="288.0"/>
-        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="576.0" y="160.0"/>
+        <p pts="4,64.0,0.0,64.0,16.0,0.0,16.0,0.0,0.0" x="128.0" y="400.0"/>
+        <p pts="4,0.0,16.0,0.0,0.0,64.0,0.0,64.0,16.0" x="192.0" y="240.0"/>
+        <p pts="4,0.0,16.0,0.0,0.0,64.0,0.0,64.0,16.0" x="32.0" y="432.0"/>
+        <p pts="4,0.0,16.0,0.0,0.0,64.0,0.0,64.0,16.0" x="480.0" y="112.0"/>
+        <p pts="4,64.0,0.0,64.0,16.0,0.0,16.0,0.0,0.0" x="512.0" y="432.0"/>
+        <p pts="4,0.0,16.0,0.0,0.0,64.0,0.0,64.0,16.0" x="544.0" y="304.0"/>
+        <p pts="4,64.0,0.0,64.0,16.0,0.0,16.0,0.0,0.0" x="192.0" y="144.0"/>
+        <p pts="4,0.0,16.0,0.0,0.0,64.0,0.0,64.0,16.0" x="256.0" y="432.0"/>
+        <p pts="4,0.0,16.0,0.0,0.0,64.0,0.0,64.0,16.0" x="416.0" y="240.0"/>
+        <p pts="4,64.0,0.0,64.0,16.0,0.0,16.0,0.0,0.0" x="384.0" y="16.0"/>
+        <p pts="4,64.0,0.0,64.0,16.0,0.0,16.0,0.0,0.0" x="576.0" y="176.0"/>
+        <p pts="4,64.0,0.0,64.0,16.0,0.0,16.0,0.0,0.0" x="288.0" y="48.0"/>
+        <p pts="4,0.0,16.0,0.0,0.0,64.0,0.0,64.0,16.0" x="352.0" y="368.0"/>
+        <p pts="4,0.0,16.0,0.0,0.0,64.0,0.0,64.0,16.0" x="0.0" y="176.0"/>
+        <p pts="4,64.0,0.0,64.0,16.0,0.0,16.0,0.0,0.0" x="224.0" y="368.0"/>
+        <p pts="4,64.0,0.0,64.0,16.0,0.0,16.0,0.0,0.0" x="448.0" y="400.0"/>
+        <p pts="4,64.0,0.0,64.0,16.0,0.0,16.0,0.0,0.0" x="160.0" y="16.0"/>
+        <p pts="4,64.0,0.0,64.0,16.0,0.0,16.0,0.0,0.0" x="544.0" y="48.0"/>
+        <p pts="4,64.0,0.0,64.0,16.0,0.0,16.0,0.0,0.0" x="64.0" y="80.0"/>
+        <p pts="4,0.0,16.0,0.0,0.0,64.0,0.0,64.0,16.0" x="32.0" y="304.0"/>
+        <p pts="4,64.0,0.0,64.0,16.0,0.0,16.0,0.0,0.0" x="256.0" y="336.0"/>
+        <p pts="4,64.0,0.0,64.0,16.0,0.0,16.0,0.0,0.0" x="320.0" y="176.0"/>
     </terrain>
     <atlases members="" retainAtlases="true"/>
 </scene>

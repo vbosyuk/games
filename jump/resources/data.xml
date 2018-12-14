@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <pack>
     <tileset across="2" atlasID="0" desc="" down="1" id="10" name="cl" oid="-1" shared="false" th="32" tw="32">
-        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="1" id="1" order="-1"/>
+        <tile collision="2" data="" durations="100" frames="0" id="0" order="-1"/>
+        <tile collision="2" data="" durations="100" frames="1" id="1" order="-1"/>
     </tileset>
     <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="480" id="5" name="cloud" numframes="1" oid="-1" repeats="false" resized="false" shared="false" width="640" xpf="1.0" ypf="1.0"/>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="6" fixedrot="false" fric="0.2" gid="3" id="7" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="iron man" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="8" static="false">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="6" fixedrot="true" fric="0.2" gid="4" id="7" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="iron man" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="8" static="false">
         <snippets>
-            <s enabled="true" id="7">
+            <s enabled="true" id="17">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+            <s enabled="true" id="9">
                 <prop id="2147483647" list="0" val="thisactor"/>
                 <prop id="33" list="0" val="left"/>
                 <prop id="34" list="0" val="right"/>
@@ -17,35 +20,41 @@
                 <prop id="42" list="0" val="false"/>
                 <prop id="43" list="0" val="false"/>
                 <prop id="11" list="0" val="15.0"/>
-                <prop id="45" list="0" val="25.0"/>
-                <prop id="47" list="0" val="anime 1"/>
-                <prop id="48" list="0" val="anime 1"/>
-                <prop id="49" list="0" val="anime 1"/>
-                <prop id="50" list="0" val="anime 1"/>
+                <prop id="45" list="0" val="37"/>
+                <prop id="47" list="0" val=""/>
+                <prop id="48" list="0" val=""/>
+                <prop id="49" list="0" val=""/>
+                <prop id="50" list="0" val=""/>
                 <prop id="52" list="0" val="false"/>
-                <prop id="53" list="0" val="anime 1"/>
-                <prop id="54" list="0" val="anime 1"/>
+                <prop id="53" list="0" val=""/>
+                <prop id="54" list="0" val=""/>
                 <prop id="55" list="0" val="false"/>
                 <prop id="56" list="0" val="false"/>
                 <prop id="57" list="0" val="false"/>
                 <prop id="58" list="0" val="false"/>
-                <prop id="60" list="0" val="true"/>
-                <prop id="62" list="0" val="0.2"/>
+                <prop id="60" list="0" val="false"/>
+                <prop id="62" list="0" val="15"/>
                 <prop id="63" list="0" val="50"/>
+            </s>
+            <s enabled="true" id="15">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="0.5"/>
+                <prop id="2" list="0" val="0.5"/>
+                <prop id="3" list="0" val="Fade"/>
             </s>
         </snippets>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="8" name="iron man" shared="false" width="64">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="anime 1" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="anime 1" rest="0.0" sensor="false"/>
+            <poly data="4,20,5,50,5,50,50,20,50" density="0.1" fric="0.2" gid="-1000" id="0" name="anime 1" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="8" fixedrot="false" fric="0.2" gid="3" id="11" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="spider" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="12" static="false">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="8" fixedrot="false" fric="0.2" gid="5" id="11" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="spider" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="12" static="false">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="12" name="spider" shared="false" width="64">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,3,3,27,3,27,28,3,28" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
         </anim>
     </sprite>
 </pack>

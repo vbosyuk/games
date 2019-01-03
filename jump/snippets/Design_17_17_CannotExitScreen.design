@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <groups>
     <group eventID="2" id="0">
-        <step comment="false" x="15" y="15">
-            <group eventID="-1" id="-1">
-                <if comment="false" x="26" y="40">
-                    <group eventID="-1" id="-1">
-                        <set-xy comment="false" x="37" y="78">
+        <step comment="false" x="54" y="33">
+            <group eventID="2" id="-1">
+                <if comment="false" x="65" y="58">
+                    <group eventID="2" id="-1">
+                        <set-xy comment="false" x="76" y="96">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                             <screen-xy comment="false" id="2" x="0" y="0">
                                 <int id="0" val="0"/>
                             </screen-xy>
                         </set-xy>
-                        <set-dxy comment="false" x="37" y="118">
+                        <set-dxy comment="false" x="76" y="136">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val="0"/>
@@ -26,16 +26,16 @@
                         <int id="1" val="0"/>
                     </less>
                 </if>
-                <if comment="false" x="26" y="157">
-                    <group eventID="-1" id="-1">
-                        <set-xy comment="false" x="37" y="195">
+                <if comment="false" x="65" y="175">
+                    <group eventID="2" id="-1">
+                        <set-xy comment="false" x="76" y="213">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="1"/>
                             <screen-xy comment="false" id="2" x="0" y="0">
                                 <int id="0" val="1"/>
                             </screen-xy>
                         </set-xy>
-                        <set-dxy comment="false" x="37" y="235">
+                        <set-dxy comment="false" x="76" y="253">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="1"/>
                             <int id="2" val="0"/>
@@ -49,9 +49,9 @@
                         <int id="1" val="0"/>
                     </less>
                 </if>
-                <if comment="false" x="26" y="274">
-                    <group eventID="-1" id="-1">
-                        <set-xy comment="false" x="37" y="317">
+                <if comment="false" x="65" y="292">
+                    <group eventID="2" id="-1">
+                        <set-xy comment="false" x="76" y="335">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                             <plus comment="false" id="2" x="0" y="0">
@@ -69,7 +69,7 @@
                                 </minus>
                             </plus>
                         </set-xy>
-                        <set-dxy comment="false" x="37" y="367">
+                        <set-dxy comment="false" x="76" y="385">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val="0"/>
@@ -91,9 +91,9 @@
                         </screen-wh>
                     </more>
                 </if>
-                <if comment="false" x="26" y="406">
-                    <group eventID="-1" id="-1">
-                        <set-xy comment="false" x="37" y="449">
+                <if comment="false" x="65" y="424">
+                    <group eventID="2" id="-1">
+                        <set-xy comment="false" x="76" y="467">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="1"/>
                             <plus comment="false" id="2" x="0" y="0">
@@ -111,7 +111,7 @@
                                 </minus>
                             </plus>
                         </set-xy>
-                        <set-dxy comment="false" x="37" y="499">
+                        <set-dxy comment="false" x="76" y="517">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="1"/>
                             <int id="2" val="0"/>

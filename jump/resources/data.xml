@@ -10,7 +10,7 @@
             <s enabled="true" id="17">
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
-            <s enabled="true" id="9">
+            <s enabled="false" id="9">
                 <prop id="2147483647" list="0" val="thisactor"/>
                 <prop id="33" list="0" val="left"/>
                 <prop id="34" list="0" val="right"/>
@@ -20,7 +20,7 @@
                 <prop id="42" list="0" val="false"/>
                 <prop id="43" list="0" val="false"/>
                 <prop id="11" list="0" val="15.0"/>
-                <prop id="45" list="0" val="37"/>
+                <prop id="45" list="0" val="18"/>
                 <prop id="47" list="0" val=""/>
                 <prop id="48" list="0" val=""/>
                 <prop id="49" list="0" val=""/>
@@ -35,12 +35,6 @@
                 <prop id="60" list="0" val="false"/>
                 <prop id="62" list="0" val="15"/>
                 <prop id="63" list="0" val="50"/>
-            </s>
-            <s enabled="true" id="15">
-                <prop id="2147483647" list="0" val="thisactor"/>
-                <prop id="1" list="0" val="0.5"/>
-                <prop id="2" list="0" val="0.5"/>
-                <prop id="3" list="0" val="Fade"/>
             </s>
         </snippets>
     </actor>

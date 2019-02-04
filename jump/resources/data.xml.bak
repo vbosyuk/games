@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <pack>
-    <tileset across="1" atlasID="0" desc="" down="1" id="19" name="brick" oid="-1" shared="false" th="32" tw="32">
-        <tile collision="-1" data="" durations="100" frames="0" id="0" order="-1"/>
-    </tileset>
-    <tileset across="1" atlasID="0" desc="" down="1" id="20" name="briclk" oid="-1" shared="false" th="34" tw="34">
-        <tile collision="-1" data="" durations="100" frames="0" id="0" order="-1"/>
-    </tileset>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="23" fixedrot="false" fric="0.2" gid="3" id="22" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="bullett" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="23" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="23" name="bullett" shared="false" width="64">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
+            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="24" fixedrot="false" fric="0.2" gid="3" id="24" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="bulletts 2" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="25" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="25" name="bulletts 2" shared="false" width="64">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
+            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <tileset across="3" atlasID="0" desc="" down="2" id="10" name="cl" oid="-1" shared="false" th="32" tw="32">
         <tile collision="2" data="" durations="100" frames="0" id="0" order="-1"/>
         <tile collision="2" data="" durations="100" frames="1" id="1" order="-1"/>
@@ -42,7 +52,7 @@
                 <prop id="56" list="0" val="false"/>
                 <prop id="57" list="0" val="false"/>
                 <prop id="58" list="0" val="false"/>
-                <prop id="60" list="0" val="true"/>
+                <prop id="60" list="0" val="false"/>
                 <prop id="62" list="0" val="12"/>
                 <prop id="63" list="0" val="50"/>
             </s>
@@ -50,11 +60,11 @@
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="8" name="iron man" shared="false" width="64">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="anime 1" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,20,5,50,5,50,50,20,50" density="0.1" fric="0.2" gid="-1000" id="0" name="anime 1" rest="0.0" sensor="false"/>
+            <poly data="4,20,4,51,4,51,49,20,49" density="0.1" fric="0.2" gid="-1000" id="0" name="anime 1" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <tileset across="1" atlasID="0" desc="" down="1" id="21" name="nik" oid="-1" shared="false" th="32" tw="32">
-        <tile collision="-1" data="" durations="100" frames="0" id="0" order="-1"/>
+        <tile collision="25" data="" durations="100" frames="0" id="0" order="-1"/>
     </tileset>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="18" fixedrot="false" fric="0.2" gid="6" id="13" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="portal" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="14" static="false">
         <snippets/>

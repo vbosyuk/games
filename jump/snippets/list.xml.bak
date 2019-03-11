@@ -32,14 +32,16 @@
         <blocks/>
         <events>
             <event displayName="Actor - Type" enabled="true" id="1" name="event-collide-actortotype" order="1" repeats="true"/>
-            <event displayName="Actor Created" enabled="true" id="2" name="event-actor-create-kill" order="2" repeats="true"/>
-            <event displayName="Reload" enabled="true" id="3" name="event-custom" order="3" repeats="true"/>
-            <event displayName="Actor - Any" enabled="true" id="5" name="collide" order="8" repeats="true"/>
-            <event displayName="Custom Event" enabled="true" id="6" name="event-custom" order="9" repeats="true"/>
-            <event displayName="Custom Event" enabled="true" id="7" name="event-custom" order="10" repeats="true"/>
-            <event displayName="Custom Event" enabled="true" id="8" name="event-custom" order="11" repeats="true"/>
-            <event displayName="Updating" enabled="true" id="9" name="step" order="5" repeats="true"/>
-            <event displayName="Actor - Type" enabled="true" id="10" name="event-collide-actortotype" order="6" repeats="true"/>
+            <event displayName="Actor Created" enabled="true" id="2" name="event-actor-create-kill" order="5" repeats="true"/>
+            <event displayName="Reload" enabled="true" id="3" name="event-custom" order="6" repeats="true"/>
+            <event displayName="Actor - Any" enabled="true" id="5" name="collide" order="11" repeats="true"/>
+            <event displayName="Custom Event" enabled="true" id="6" name="event-custom" order="12" repeats="true"/>
+            <event displayName="Custom Event" enabled="true" id="7" name="event-custom" order="13" repeats="true"/>
+            <event displayName="Custom Event" enabled="true" id="8" name="event-custom" order="14" repeats="true"/>
+            <event displayName="Updating" enabled="true" id="9" name="step" order="8" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="10" name="event-collide-actortotype" order="9" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="11" name="event-collide-actortotype" order="2" repeats="false"/>
+            <event displayName="Actor - Type" enabled="true" id="12" name="event-collide-actortotype" order="3" repeats="true"/>
         </events>
     </snippet>
     <snippet actorid="11" attachedevent="true" class="scripts.ActorEvents_11" classname="scripts.ActorEvents_11" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="8" name="ActorEvents_11" oid="-1" package="scripts." shared="false" type="actor">
@@ -121,11 +123,15 @@
     </snippet>
     <snippet actorid="15" attachedevent="true" class="scripts.ActorEvents_15" classname="scripts.ActorEvents_15" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="19" name="ActorEvents_15" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
-        <events/>
+        <events>
+            <event displayName="Every N secs" enabled="true" id="1" name="event-periodic" order="1" repeats="true"/>
+        </events>
     </snippet>
     <snippet actorid="17" attachedevent="true" class="scripts.ActorEvents_17" classname="scripts.ActorEvents_17" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="20" name="ActorEvents_17" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
-        <events/>
+        <events>
+            <event displayName="After N secs" enabled="true" id="1" name="event-delay" order="1" repeats="true"/>
+        </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_21_21_FireBullet" classname="scripts.Design_21_21_FireBullet" desc="Spawn bullets from the actor's position." description="Spawn bullets from the actor's position." design="true" drawOrder="0" id="21" name="Fire Bullet" oid="-1" package="scripts" shared="false" type="actor">
         <text default="" defaultValue="" desc="How to determine the direction of the bullets:&lt;br/&gt;&#10;&lt;br/&gt;&#10;&lt;em&gt;Relative&lt;/em&gt; - Treat &lt;em&gt;Direction&lt;/em&gt; relative to the actor's orientation.&lt;br/&gt;&#10;&lt;em&gt;Absolute&lt;/em&gt; - Treat &lt;em&gt;Direction &lt;/em&gt; as absolute.&lt;br/&gt;&#10;&lt;em&gt;Based on Animations&lt;/em&gt; - Determine the direction based on the current animation." dropdown="Relative=Relative&#10;Absolute=Absolute&#10;Based on Animations=Based on Animations" fullname="Direction Mode" hidden="false" id="32" name="_DirectionMode" order="10"/>

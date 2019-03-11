@@ -58,20 +58,32 @@
         <group desc="tiles" id="7" name="BRICK"/>
         <group desc="" id="8" name="spaceship 1"/>
         <group desc="" id="9" name="spaceship 2"/>
+        <group desc="" id="10" name="bullett"/>
+        <group desc="" id="11" name="bullett 2"/>
     </groups>
     <cgroups>
+        <cgroup g1="0" g2="11"/>
+        <cgroup g1="1" g2="11"/>
+        <cgroup g1="3" g2="11"/>
+        <cgroup g1="4" g2="11"/>
         <cgroup g1="0" g2="7"/>
+        <cgroup g1="0" g2="10"/>
         <cgroup g1="1" g2="1"/>
         <cgroup g1="1" g2="4"/>
         <cgroup g1="1" g2="5"/>
         <cgroup g1="1" g2="7"/>
         <cgroup g1="1" g2="8"/>
         <cgroup g1="1" g2="9"/>
+        <cgroup g1="1" g2="10"/>
         <cgroup g1="3" g2="3"/>
         <cgroup g1="3" g2="7"/>
+        <cgroup g1="3" g2="8"/>
+        <cgroup g1="3" g2="9"/>
+        <cgroup g1="3" g2="10"/>
         <cgroup g1="4" g2="5"/>
         <cgroup g1="4" g2="6"/>
         <cgroup g1="4" g2="7"/>
+        <cgroup g1="4" g2="10"/>
         <cgroup g1="5" g2="7"/>
         <cgroup g1="5" g2="8"/>
         <cgroup g1="5" g2="9"/>
@@ -79,6 +91,8 @@
         <cgroup g1="7" g2="7"/>
         <cgroup g1="7" g2="8"/>
         <cgroup g1="7" g2="9"/>
+        <cgroup g1="8" g2="8"/>
+        <cgroup g1="9" g2="9"/>
     </cgroups>
     <input>
         <key id="0" keyname="UP" name="up" vk="38" vks="38"/>
@@ -93,7 +107,10 @@
         <cat id="-1" name="Default"/>
     </attcats>
     <props/>
-    <attributes/>
+    <attributes>
+        <number cid="-1" id="0" name="hero x" save="true" value="0.0"/>
+        <number cid="-1" id="1" name="hero y" save="true" value="0.0"/>
+    </attributes>
     <collisions>
         <poly id="0" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
         <poly id="1" name="Rect Up" pts="0.0,0.0#0.0,0.5#1.0,0.5#1.0,0.0"/>

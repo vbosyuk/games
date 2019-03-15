@@ -4,9 +4,9 @@
         <event-periodic comment="false" x="15" y="15">
             <group eventID="1" id="-1">
                 <create-actor3 comment="false" x="26" y="42">
-                    <actortype eid="22" id="0"/>
-                    <int id="1" val="527"/>
-                    <int id="2" val="130"/>
+                    <actortype eid="24" id="0"/>
+                    <int id="1" val="81"/>
+                    <int id="2" val="430"/>
                     <int id="3" val="0"/>
                 </create-actor3>
                 <push-shove comment="false" x="26" y="69">
@@ -26,7 +26,7 @@
                             <int id="1" val="1"/>
                         </get-xy>
                     </minus>
-                    <int id="4" val="8"/>
+                    <int id="4" val="7"/>
                 </push-shove>
             </group>
             <int id="0" val="1.0"/>
